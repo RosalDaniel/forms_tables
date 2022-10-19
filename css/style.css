@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    color: #312a26;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p, label, span, a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a:hover {
+    color: #c7a17a;
+}
+body {
+    width: 100%;
+}
+
+/* Header Area */
+
+.nav {
+    overflow: auto;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav h2 {
+    float: left;
+}
+
+.nav ul {
+    width: 50%;
+    float: right;
+    text-align: right;
+    padding-top: 10px;
+}
+
+.nav a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+.nav li {
+    display: inline-block;
+}
+
+/* Banner Area */
+
+.banner {
+    height: 600px;
+    background-color: #e76113;
+    background-image: url('../images/atf-image.jpg');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 5%;
+}
+.banner-text {
+    width: 30%;
+    position: relative;
+    top: 20%;
+    left: 5%;
+}
+.banner h2 {
+    text-transform: uppercase;
+    font-size: 70px;
+    line-height: 70px;
+    word-wrap: normal;
+}
+.banner span {
+    color: rgb(43, 126, 18);
+}
+.banner p {
+    font-style: italic;
+    margin-bottom: 15px;
+}
+.banner a {
+    padding: 15px 20px;
+    background-color: rgb(27, 16, 1);
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+a:hover {
+    color: rgb(172, 109, 15);
+}
+
+/* Ads Area 1*/
+
+.ads {
+    overflow: auto;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+.ads-box {
+    width: 49.5%;
+    float: left;
+    height: 270px;
+    background-size: cover;
+    background-position: center;
+    background-color: #312a26;
+    position: relative;
+}
+.ads-box:nth-child(1), 
+.ads-box:nth-child(3) {
+    margin-right: 1%;
+}
+.ads-box:nth-child(1), 
+.ads-box:nth-child(2) {
+    margin-bottom: 1%;
+}
+.ads-box:nth-child(1) {
+    background-image: url(../images/merchandise1.jpg);
+}
+.ads-box:nth-child(2) {
+    background-image: url(../images/merchandise2.jpg);
+}
+.adstext {
+    padding: 70px;
+    text-transform: uppercase;
+}
+.adstext h3 {
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    padding-bottom: 20px;
+}
+.adstext a {
+    color: white;
+}
+
+/* Menu Area */
+
+.menu {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.menu label {
+    color: #e96113;
+}
+.menu h2 {
+    text-transform: uppercase;
+}
+.menu hr {
+    text-align: center;
+    margin-top: 10px;
+    height: 2px;
+    background-color: #e96113;
+    width: 150px;
+}
+
+/* Container Area*/
+
+.container {
+    position: static;
+    max-width: 2400px;
+    margin-left: 10%;
+    margin-right: 5%;
+    background: white;
+    overflow: auto;
+    margin-bottom: 50px;
+}
+.box {
+    margin: 5px;
+    float: left;
+    width: 260px;
+}
+.box img {
+    width: 100%;
+    height: auto;
+}
+
+/* Ads Area 2*/
+
+.ads-box2 {
+    width: 99%;
+    float: left;
+    height: 280px;
+    background-size: cover;
+    background-position: center;
+    background-color: #312a26;
+}
+.ads-box2:nth-child(1), 
+.ads-box2:nth-child(2) {
+    margin-bottom: 1%;
+}
+.ads-box2:nth-child(1) {
+    background-image: url(../images/banner.jpg);
+}
+.adstext2 {
+    text-align: center;
+    padding: 90px;
+    text-transform: uppercase;
+}
+.adstext2 label {
+    color:#e76113;
+}
+.adstext2 h3 {
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    padding-bottom: 20px;
+}
+.adstext2 a {
+    color: white;
+}
+
+/* Ads Area 3 */
+
+.ads {
+    overflow: auto;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+.ads-box3 {
+    width: 49.5%;
+    float: left;
+    height: 260px;
+    background-size: cover;
+    background-position: center;
+    background-color: #312a26;
+    position: relative;
+}
+.ads-box3:nth-child(1), 
+.ads-box3:nth-child(3) {
+    margin-right: 1%;
+}
+.ads-box3:nth-child(1), 
+.ads-box3:nth-child(2) {
+    margin-bottom: 1%;
+}
+.ads-box3:nth-child(1) {
+    background-image: url(../images/merchandise3.jpg);
+}
+.ads-box3:nth-child(2) {
+    background-image: url(../images/merchandise4.jpg);
+}
+.ads-box3:nth-child(3) {
+    background-image: url(../images/merchandise5.jpg);
+}
+.ads-box3:nth-child(4) {
+    background-image: url(../images/merchandise6.jpg);
+}
+.adstext3 {
+    text-align: left;
+    padding: 80px;
+    text-transform: uppercase;
+}
+.adstext3 label {
+    color:#e76113;
+}
+.adstext3 h4 {
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    padding-bottom: 20px;
+}
+.adstext3 a {
+    color: white;
+}
