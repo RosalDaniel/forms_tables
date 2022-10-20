@@ -251,20 +251,26 @@
         <!-- Additional Request -->
         <div class="form">
             <div class="r-header">
-                <label>Additional Requests</label>
-                <textarea name="requests" id="requests" cols="30" rows="10"></textarea><br>
+                <p>Additional Requests</p>
+                <textarea name="requests" id="requests" cols="67" rows="10"></textarea><br>
             </div>
             <div class="payment">
-                <h4>Payment</h4>
-                    <p>Payment Accepted Cards</p>
-                    <label for="cards">cards</label><br>
-                    <label for="cardname">Credit Card Name</label>
-                        <input type="text" name="cardname" id="input-cardname" placeholder="John Doe">
-                    <label for="cardnumber">Credit Card Number</label>
-                        <input type="number" name="cardnumber" id="input-cardnumber" placeholder="1234567890">
-                        <input type="checkbox" name="agree" id="agree">
-                    <label>I agree Lorem, ipsum dolor sit amet.</label>
-                        <input type="button" name="send" id="send" value="Send">
+                <div class="text">
+                    <h4>Payment</h4>
+                        <p>Payment Accepted Cards</p>
+                        <label for="cards">cards</label><br>
+                </div>
+                <div class="form-credit">
+                    <label for="cardname">Credit Card Name</label><br>
+                        <input type="text" name="cardname" id="input-cardname" placeholder="John Doe"><br>
+                    <label for="cardnumber">Credit Card Number</label><br>
+                        <input type="number" name="cardnumber" id="input-cardnumber" placeholder="1234567890"><br>
+                </div>
+                <div class="form-send">
+                    <input type="checkbox" name="agree" class="agree">
+                    <label>I agree Lorem, ipsum dolor sit amet.</label><br>
+                        <input type="button" name="send" class="send" value="Send">
+                </div>
             </div>
         </div>
             </form> 
