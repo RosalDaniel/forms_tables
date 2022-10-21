@@ -6,6 +6,7 @@
     color: #312a26;
 }
 h1, h2, h3, h4, h5, h6 {
+    text-transform: uppercase;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -43,7 +44,7 @@ body {
     text-decoration: none;
 }
 
-.nav li {
+.nav li, .footer-column2 li {
     display: inline-block;
 }
 
@@ -318,11 +319,6 @@ a:hover {
     width: 100%;
     height: 25px;
 }
-select {
-    width: 100%;
-    height: 15px;
-    background-color: rgb(226, 226, 226);
-}
 .agree {
     margin-top: 10px;
 }
@@ -343,42 +339,67 @@ select {
 
 footer .footer-container {
     width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-    overflow: auto;
+    padding: 50px 0;
 }
 footer .row {
     background-image: url(../images/footer-img.jpg);
-    background-size: cover;
-    background-position: center;
-    padding-top: 2.5%;
-    padding-bottom: 2.5%;
+    background-size: contain;
+    display: flex;
+    flex-wrap: wrap;
     height: 300px;
 }
 footer .footer-column {
     width: 25%;
-    float: left;
-    
+    padding-top: 40px;
+    padding-left: 60px;
+    line-height: 1.2;
 }
 footer .footer-column h3,
 .footer-column h4,
 footer .footer-column td,
 footer .footer-column th,
 footer p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
 }
 .footer-text,
-.footer-column h5 {
+.footer2-text h4 {
     color: #c7a17a;
 }
 .footer-column input{
-    background-color: #c7a17a;
     border: none;
-    color: black;
-    padding: 10px;
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
+    padding: 8px;
     text-decoration: none;
     margin-top: 5px;
+}
+.footer-column input[type="button"]{
+    background-color: #c7a17a;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+.footer2-text {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* Footer 2 */
+.row2 {
+    background-image: url(../images/footer-image.jpg);
+    background-size: contain;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+}
+.footer-column2 {
+    width: 33%;
+    padding-top: 40px;
+    padding-left: 60px;
+}
+.footer-column2 a{
+    text-decoration: underline;
+}
+.footer-column2 h2,
+.footer-column2 a {
+    color: white;
 }
