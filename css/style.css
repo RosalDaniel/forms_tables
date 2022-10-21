@@ -281,13 +281,13 @@ a:hover {
 .form {
     width: 49.5%;
     float: left;
-    height: 450px;
     background-position: center;
     background-color: #757575;
     position: relative;
     padding: 30px;
     font-size: small;
     line-height: 1.6;
+    border-radius: 5px;
 }
 .form:nth-child(1), 
 .form:nth-child(3) {
@@ -299,7 +299,6 @@ a:hover {
 }
 .form:nth-child(1) {
     background-color: rgb(226, 226, 226);
-    height: 350px;
 }
 .form:nth-child(2) {
     background-color: rgb(226, 226, 226);
@@ -319,6 +318,11 @@ a:hover {
     width: 100%;
     height: 25px;
 }
+select {
+    width: 100%;
+    height: 15px;
+    background-color: rgb(226, 226, 226);
+}
 .agree {
     margin-top: 10px;
 }
@@ -334,3 +338,47 @@ a:hover {
     width: 100%;
     margin-top: 5px;
   }
+
+/* Footer Area */
+
+footer .footer-container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: auto;
+}
+footer .row {
+    background-image: url(../images/footer-img.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    height: 300px;
+}
+footer .footer-column {
+    width: 25%;
+    float: left;
+    
+}
+footer .footer-column h3,
+.footer-column h4,
+footer .footer-column td,
+footer .footer-column th,
+footer p {
+    color: white;
+}
+.footer-text,
+.footer-column h5 {
+    color: #c7a17a;
+}
+.footer-column input{
+    background-color: #c7a17a;
+    border: none;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 5px;
+}
