@@ -11,7 +11,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p, label, span, a {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 a:hover {
     color: #c7a17a;
@@ -21,7 +21,6 @@ body {
 }
 
 /* Header Area */
-
 .nav {
     overflow: auto;
     width: 85%;
@@ -49,10 +48,9 @@ body {
 }
 
 /* Banner Area */
-
 .banner {
     height: 600px;
-    background-color: #e76113;
+    background-color:#c7a17a;
     background-image: url('../images/atf-image.jpg');
     background-size: cover;
     background-position: center;
@@ -92,7 +90,6 @@ a:hover {
 }
 
 /* Ads Area 1*/
-
 .ads {
     overflow: auto;
     width: 85%;
@@ -138,14 +135,13 @@ a:hover {
 }
 
 /* Menu Area */
-
 .menu {
     margin-top: 10px;
     margin-bottom: 50px;
     text-align: center;
 }
 .menu label {
-    color: #e96113;
+    color:#c7a17a;
 }
 .menu h2 {
     text-transform: uppercase;
@@ -154,12 +150,11 @@ a:hover {
     text-align: center;
     margin-top: 10px;
     height: 2px;
-    background-color: #e96113;
+    background-color: #c7a17a;
     width: 150px;
 }
 
 /* Container Area*/
-
 .container {
     position: static;
     max-width: 2400px;
@@ -180,7 +175,6 @@ a:hover {
 }
 
 /* Ads Area 2*/
-
 .ads-box2 {
     width: 99%;
     float: left;
@@ -202,7 +196,7 @@ a:hover {
     text-transform: uppercase;
 }
 .adstext2 label {
-    color:#e76113;
+    color:#c7a17a;
 }
 .adstext2 h3 {
     font-weight: bold;
@@ -215,7 +209,6 @@ a:hover {
 }
 
 /* Ads Area 3 */
-
 .ads {
     overflow: auto;
     width: 85%;
@@ -258,7 +251,7 @@ a:hover {
     text-transform: uppercase;
 }
 .adstext3 label {
-    color:#e76113;
+    color:#c7a17a;
 }
 .adstext3 h4 {
     font-weight: bold;
@@ -271,7 +264,6 @@ a:hover {
 }
 
 /* Form Area */
-
 .reservation {
     overflow: auto;
     width: 85%;
@@ -333,14 +325,16 @@ a:hover {
     text-decoration: none;
     width: 100%;
     margin-top: 5px;
+    border-radius: 3px ;
   }
 
 /* Footer Area */
-
 footer .footer-container {
     width: 100%;
     padding: 50px 0;
 }
+
+/* Footer 1*/
 footer .row {
     background-image: url(../images/footer-img.jpg);
     background-size: contain;
@@ -402,4 +396,10 @@ footer p {
 .footer-column2 h2,
 .footer-column2 a {
     color: white;
+}
+.footer-column2 a:hover {
+    color: rgb(172, 109, 15);
+}
+.footer-column2 li {
+    padding-left: 10px;
 }
